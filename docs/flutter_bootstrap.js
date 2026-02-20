@@ -35,12 +35,4 @@ if (!window._flutter) {
 }
 _flutter.buildConfig = {"engineRevision":"6c0baaebf70e0148f485f27d5616b3d3382da7bf","builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"},{}]};
 
-<<<<<<< HEAD
 _flutter.loader.load();
-=======
-_flutter.loader.load({
-  serviceWorkerSettings: {
-    serviceWorkerVersion: "2069752532" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */
-  }
-});
->>>>>>> 87f221f919b22a74625f4a1ebab4821b71bd6fad
