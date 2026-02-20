@@ -1,0 +1,28 @@
+
+name: multiapi_store_flutter_diego_gonzalez
+description: >
+  Proyecto académico (Desarrollo de Software y Programación) que consume múltiples APIs y guarda datos en el STORE con Riverpod y persistencia.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_riverpod: ^2.4.9
+  http: ^1.1.2
+  shared_preferences: ^2.2.2
+
+  # Para JSON y utilidades básicas
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
